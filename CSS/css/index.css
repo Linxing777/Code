@@ -1,0 +1,42 @@
+/* h1{
+    color: red;
+}
+h2{
+    color: green;
+}
+h3{
+    color: blue;
+}
+div{
+    color: yellow;
+    background-color: aliceblue;
+} */
+/* a:link{
+    background-color:darkblue;
+    color: white;
+    text-decoration-line: none;
+}
+a:visited{
+    background-color:darkblue;
+    color: white;
+}
+a:hover{
+    background-color: red;
+}
+a:active{
+    background-color: red;
+} 
+可以变成下面    
+*/
+/* a{
+    background-color:darkblue;
+    color: white;
+    text-decoration-line: none;
+}
+a:hover{
+    background-color: red;
+}
+.home{
+    background-color: red;
+} */
+ /* 文本属性 */
