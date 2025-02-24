@@ -1,5 +1,6 @@
 // 基于openai 大模型的开发
 import OpenAI from 'openai';
+import { getMultipartRequestOptions } from 'openai/_shims/index.mjs';
 
 // 实例化Openai
 const openai = new OpenAI({
