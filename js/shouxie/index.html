@@ -22,8 +22,13 @@
     b.apply(a, [1, 2]);
     // 等价下面
     a.fn(1, 2);
-    b.call(a, [1, 2]);
+    b.call(a, 1, 2);
+    b.call(a, [1, 2]) // 输出 a [1, 2] + undefined   + 两边都是数字
     // apply 和 call 都是指向this的函数
+    // 区别在于参数的传递方式
+    // apply 是数组 call 是参数列表
+    // call(this, a, b, c ...)  apply(this, [a, b, c...])
+    console.log(b.bind(a, 1, 2)());
     </script>
 </body>
 </html>

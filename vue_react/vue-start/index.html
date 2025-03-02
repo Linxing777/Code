@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>Vue3</title>
+    vue 3 不是本地  通过cdn引入 内容分发网络
+    静态资源（html css js images）  动态 （java  node 数据库 服务器集群）
+    cdn 快速内容访问和发布的机制 -->
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/3.4.9/vue.global.js"></script>
+</head>
+<body>
+    <!-- vue 3工作的挂载点 接管前端编程世界
+    DOM appendChild  性能不好 -->
+
+    <div id="root"></div>
+    <script type="module">
+        // console.log("hello");
+    const {
+        createApp // 创建Vue3应用
+     } = Vue;
+    
+     createApp({
+         
+     }).mount("#root"); // 挂载点
+        
+    </script>
+        
+</body>
+</html>
