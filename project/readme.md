@@ -2,7 +2,8 @@
 
 - 架构
   - frontend 前端 
-  - backend 后端
+  - backend 后端 
+  - llm  ai server 
     数据接口 user.json 数据文件
     文件型数据
     http服务 http:localhost:3000/users 
@@ -15,4 +16,4 @@
       - scripts 
         "dev":"json-server --port 3001  --watch user.json"
       - npm run dev 
-  - llm  ai server 
+ 
